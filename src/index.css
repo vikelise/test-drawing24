@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ant-form-item-explain-error {
+  font-size: 11px !important;
+  line-height: 1.2 !important;
+  margin-bottom: 3px;
+  max-width: 100% !important;
+  word-break: break-word !important;
+}
+
+.ant-form-item-explain-error:last-child {
+  margin-bottom: 8px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
+
+@media (max-width: 575px) {
+  .ant-form-item-label {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
